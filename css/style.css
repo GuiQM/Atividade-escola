@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+main,
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+p, h1   { 
+    font-family:sans-serif;
+ }
+
+#imgTopo {
+    width: 3rem;
+    height: auto;
+    margin-top: 0.3rem;
+    margin-left: -7rem;
+}
+
+
+header a.nav-link:hover {
+    color: rgb(200, 200, 200) !important;
+    /* Cinza claro no hover */
+    text-decoration: underline;
+}
+
+.carousel-item {
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#imgMuseu {
+    margin-left: 7%;
+    width: 40%;
+    height: auto;
+}
+
+#imgComida1 {
+    margin-left: 7%;
+    width: 23%;
+    height: auto;
+}
+
+#imgEsporte {
+    margin-left: 7%;
+    width: 30%;
+    height: auto;
+}
+
+#imgGeografia {
+    margin-left: 7%;
+    width: 30%;
+    height: auto;
+}
+
+#imgPolitica {
+    margin-left: 7%;
+    width: 30%;
+    height: auto;
+}
+
+#imgFestas  {
+    margin-left: 7%;
+    width: 30%;
+    height: auto;
+}
+
+#imgIdioma  {
+    margin-left: 7%;
+    width: 30%;
+    height: auto;
+}
+
+/*----------------------*/
+
+#artes {
+    position: relative;
+    margin-left: 1.2rem;
+}
+
+#culinaria {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#esportes {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#festas {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#idioma {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#geografia {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#politica {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#referencias {
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+/*----------------------------------------------------*/
+
+#divTextoArtes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pArtes {
+    padding: 1%;
+    width: 40%;
+    align-content: center;
+    text-align: justify;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+}
+
+/*----------------------------------------------------*/
+#divTextoCulinaria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pCulinaria {
+    padding: 1%;
+    width: 40%;
+    align-content: center;
+    text-align: justify;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+}
+
+/*----------------------------------------------------*/
+
+#divTextoEsportes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pEsportes {
+    padding: 1%;
+    width: 40%;
+    align-content: center;
+    text-align: justify;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+}
+
+/*------------------------------------------------------------------*/
+
+#divTextoFestas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pFestas {
+    padding: 1%;
+    width: 40%;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+    text-align: justify;
+}
+
+/*------------------------------------------------------------------*/
+
+#divTextoIdioma {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pIdioma {
+    padding: 1%;
+    width: 40%;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+    text-align: justify;
+}
+
+/*------------------------------------------------------------------*/
+
+#divTextoGeografia {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pGeografia {
+    padding: 1%;
+    width: 40%;
+    align-content: center;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+    text-align: justify;
+}
+
+/*------------------------------------------------------------------*/
+
+#divTextoPolitica {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pPolitica {
+    padding: 1%;
+    width: 40%;
+    align-content: center;
+    height: 30%;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+    text-align: justify;
+}
+
+/*------------------------------------------------------------------*/
+
+footer {
+    background-color: rgb(33, 37, 41);
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a.nav-link {
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+}
+
+footer a.nav-link:hover {
+    color: rgb(200, 200, 200) !important;
+    text-decoration: underline;
+}
